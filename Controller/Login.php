@@ -14,5 +14,9 @@ if($email != ""|| $password != "")
 {
         entrar($email,$password);
 }
+else
+{
+        header("Location: ../View/login_blank.html");
+}
 
 ?>

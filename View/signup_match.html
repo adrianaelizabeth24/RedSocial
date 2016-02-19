@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="js/query.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+<form action="../Controller/SignUp.php" method="get">
+    <div id="container">
+        <div id="forma">
+            <br/>
+            <ul class="list-inline">
+                <li><a href="index.html">LOG IN</a></li>
+                <li class="active"><a href="#">SIGN UP</a></li>
+            </ul>
+            <div id="input">
+                <br/>
+                <div class="alert alert-danger" id="alert">Passwords must match</div>
+                <br/>
+                <div class="left-inner-addon" id="emailSUDiv">
+                    <i class="fa fa-envelope-o"></i>
+                    <input type="email" name="email" class="form form-control" id="email" placeholder="Email"/>
+                </div>
+                <br/>
+                <div class="left-inner-addon" id="passwordSUDiv">
+                    <i class="fa fa-lock"></i>
+                    <input type="password" name="password" class="form form-control" id="password"
+                           placeholder="Password"/>
+                </div>
+                <br/>
+                <div class="left-inner-addon" id="passconfirmSUDiv">
+                    <i class="fa fa-lock"></i>
+                    <input type="password" name="confirmPass" class="form form-control" id="password2"
+                           placeholder="Confirm Password"/>
+                </div>
+                <br/><br/>
+                <div id="registerSUDiv">
+                    <input type="submit" value="Register" class="btn btn-default">
+                </div>
+                <br/><br/>
+            </div>
+        </div>
+    </div>
+</form>
+</body>
+<script>
+    $(document).ready(function () {
+
+        $("#nameSUDiv").show();
+        $("#nameSUDiv").animate({left: '95px'});
+
+        $("#emailSUDiv").show();
+        $("#emailSUDiv").animate({left: '130px'});
+
+        $("#passwordSUDiv").show();
+        $("#passwordSUDiv").animate({left: '165px'});
+
+        $("#passconfirmSUDiv").show();
+        $("#passconfirmSUDiv").animate({left: '200px'});
+
+        $("#registerSUDiv").show();
+        $("#registerSUDiv").animate({left: '315px'});
+
+    });
+</script>
+</html>

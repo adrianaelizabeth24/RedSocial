@@ -17,10 +17,10 @@ function entrar($email,$password)
     $result = $conn->query("select * from account where email = '$email'");
     $row = $result->fetch_assoc();
     if (empty($row["email"])) {
-        echo '<h1>NO existe</h1>';
+        header("Location: ../View/login_wrong.html");
     } else {
         if ($row["password"] != $password) {
-            echo '<h1>Usuario o password incorrectos, vuelva a intenerarlo</h1>';
+            header("Location: ../View/login_wrong.html");
         } else {
             session_start();
             $_SESSION['isLoggedIn'] = true;

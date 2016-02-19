@@ -19,9 +19,12 @@ if($email != ""|| $password != ""|| $passwordConfirma!= "")
     }
     else
     {
-
+        header("Location: ../View/signup_match.html");
     }
-
+}
+else
+{
+    header("Location: ../View/signup_blank.html");
 }
 ?>
 
