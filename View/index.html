@@ -12,7 +12,7 @@
     <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
-<form>
+<form action="../Controller/Login.php" method="get">
     <div id="container">
         <div id="forma">
                     <br/>
@@ -26,7 +26,7 @@
                         <br/>
                         <div class="left-inner-addon" id="emailDiv">
                             <i class="fa fa-envelope-o"></i>
-                            <input type="email" name="username" class="form form-control " id="email" placeholder="Email"/>
+                            <input type="email" name="email" class="form form-control " id="email" placeholder="Email"/>
                         </div>
                         <br/>
                         <div class="left-inner-addon transition" id="passwordDiv">
@@ -40,7 +40,7 @@
                         </div>
                         <br/>
                         <div id="submitDiv">
-                            <input type="submit" value="Log In" class="btn btn-default" onclick="validateForm()">
+                            <input type="submit" value="Log In" class="btn btn-default">
                         </div>
                         <br/><br/>
                         <div id="forgotDiv">
@@ -69,25 +69,6 @@
         $("#forgotDiv").show();
         $("#forgotDiv").animate({left: '235px'});
     });
-
-    function validateForm() {
-        var username = document.getElementsByName("username")[0].value;
-        var password = document.getElementsByName("password")[0].value;
-        if (username == "" || password == "") {
-            document.getElementById('alert').hidden = false;
-            document.getElementById('alert').innerHTML = " user and password must be filled"
-
-        }
-        else if (username != "adriana" || password != "adriana") {
-            document.getElementById('alert').hidden = false;
-            document.getElementById('alert').innerHTML = " user or password are wrong"
-        }
-        else {
-            location = "home.html";
-        }
-    }
-
-
 </script>
 </body>
 </html>
