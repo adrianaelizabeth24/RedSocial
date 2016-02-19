@@ -1,0 +1,211 @@
+div>a{
+    color:white;
+    font-weight: 600;
+    margin-left:28%;
+}
+
+div>a:hover{
+    color:#ce6e60;
+}
+
+#container {
+    position: fixed;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* next 4 lines used w3schools to do it */
+    background:#6434b3; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(-45deg,#fe883a,#6434b3);
+    background: -o-linear-gradient(-45deg,#fe883a,#6434b3);
+    background: -moz-linear-gradient(-45deg,#fe883a,#6434b3);
+    background: linear-gradient(-45deg,#fe883a,#6434b3);
+    font-family: 'Muli', sans-serif;
+}
+
+#form{
+    background: rgba(255,255,255,0.3);
+    margin: 5% 30% 0 30%;
+    padding-left: 5%;
+    color: white;
+    font-size: 1.3em;
+}
+
+#input{
+    border-top: solid 5px white;
+    margin-top: -2.4%;
+    margin-right: 20%;
+}
+
+#emailDiv
+{
+    margin-left: -100px;
+    width: 400px;
+    position: relative;
+}
+
+#passwordDiv
+{
+    margin-left: -135px;
+    width: 400px;
+    position: relative;
+}
+
+#checkDiv
+{
+    margin-left: -170px;
+    width: 400px;
+    position: relative;
+}
+
+#submitDiv
+{
+    margin-left: -205px;
+    width: 400px;
+    position: relative;
+}
+
+#forgotDiv
+{
+    margin-left: -240px;
+    width: 400px;
+    position: relative;
+}
+
+#nameSUDiv
+{
+    margin-left: -100px;
+    width: 400px;
+    position: relative;
+}
+
+#emailSUDiv
+{
+    margin-left: -135px;
+    width: 400px;
+    position: relative;
+}
+
+#passwordSUDiv
+{
+    margin-left: -170px;
+    width: 400px;
+    position: relative;
+}
+
+#passconfirmSUDiv
+{
+    margin-left: -205px;
+    width: 400px;
+    position: relative;
+}
+
+#registerSUDiv
+{
+    margin-left: -315px;
+    width: 400px;
+    position: relative;
+}
+
+
+#email{
+
+    border-bottom: solid 3px white;
+    border-top: none;
+    border-left:none;
+    border-right:none;
+    background: transparent;
+    box-shadow: none;
+    color:#fff;
+
+
+}
+
+#password{
+
+    border-bottom: solid 3px white;
+    border-top: none;
+    border-left:none;
+    border-right:none;
+    background: transparent;
+    box-shadow: none;
+    color:#fff;
+
+}
+
+
+#password2{
+
+    border-bottom: solid 3px white;
+    border-top: none;
+    border-left:none;
+    border-right:none;
+    background: transparent;
+    box-shadow: none;
+    color:#fff;
+
+}
+
+#name{
+
+    border-bottom: solid 3px white;
+    border-top: none;
+    border-left:none;
+    border-right:none;
+    background: transparent;
+    box-shadow: none;
+    color:#fff;
+
+}
+
+
+.form{
+    color: #fff;
+}
+
+.list-inline > li.active a{
+    text-decoration: none;
+    color: #ce6e60;
+    border-bottom-color: #ce6e60;
+
+}
+
+.list-inline > li a{
+    color: white;
+    border-bottom: solid 5px white;
+    font-size: 1.4em;
+}
+
+.list-inline > li a:hover{
+    text-decoration: none;
+}
+
+.btn.btn-default {
+    color: white;
+    font-size: 1.1em;
+    border-radius: 49px;
+    -moz-border-radius: 49px;
+    -webkit-border-radius: 49px;
+    width:300px;
+    height: 50px;
+    background-color:#ce6e60 ;
+    border:none;
+    margin-left: 15%;
+}
+
+
+/*used previous lab activity */
+.left-inner-addon {
+    position: relative;
+}
+.left-inner-addon input {
+    padding-left: 29px;
+}
+.left-inner-addon i {
+    font-size: 23px;
+    position: absolute;
+    padding: 5px -2px;
+}
+
