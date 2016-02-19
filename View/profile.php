@@ -31,7 +31,7 @@ if(isset($_SESSION['isLoggedIn']))
                 <ul class=\"dropdown-menu\">
                     <li><a href=\"#\"></a></li>
                     <li><a href=\"#\"><span class=\"glyphicon glyphicon-user\"></span>Profile</a></li>
-                    <li><a href=\"settings.php\"><span class=\"glyphicon glyphicon-cog\"></span>Settings</a></li>
+                    <li><a href=\"settings.php\"><span class=\"glyphicon glyphicon-cog\"></span>Change Password</a></li>
                 </ul>
             </li>
             <li><a href=\"../Controller/logout.php\"><span class=\"glyphicon glyphicon-log-in\"></span> Log out</a></li>
