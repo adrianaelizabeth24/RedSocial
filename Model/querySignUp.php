@@ -23,17 +23,24 @@ function registrar($email,$password)
     if ($conn->connect_error) {
         die("Connection failed: " . $conn->connect_error);
     }
-    if ($conn->query("insert into account (email,password) values ('$email','$password')") === TRUE) {
-        echo("New record created successfully");
-        session_start();
-        $_SESSION['isLoggedIn'] = true;
-        $_SESSION['email'] = $email;
-        header("Location: ../View/home.php");
+    $result = $conn->query("select * from account where email = '$email'");
+    $row = $result->fetch_assoc();
+    if (empty($row["email"])) {
+        $result->free();
+        if ($conn->query("insert into account (email,password) values ('$email','$password')") === TRUE) {
+            echo("New record created successfully");
+            session_start();
+            $_SESSION['isLoggedIn'] = true;
+            $_SESSION['email'] = $email;
+            header("Location: ../View/home.php");
+        } else {
+            echo("error");
+        }
+        $conn->close();
     } else {
-        echo("error");
-
+        header("Location: ../View/signup_exists.html");
     }
-    $conn->close();
+
 }
 ?>
 </body>
