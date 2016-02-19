@@ -13,7 +13,6 @@ $password = $_GET["password"];
 if($email != ""|| $password != "")
 {
         entrar($email,$password);
-
 }
 
 ?>

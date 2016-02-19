@@ -17,6 +17,10 @@ if($email != ""|| $password != ""|| $passwordConfirma!= "")
     {
         registrar($email,$password);
     }
+    else
+    {
+
+    }
 
 }
 ?>

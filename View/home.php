@@ -29,13 +29,13 @@
                                  User <span class=\"caret\"></span></a>
                                 <ul class=\"dropdown-menu\">
                                     <li><a href=\"#\"></a></li>
-                                    <li><a href=\"profile.html\"><span class=\"glyphicon glyphicon-user\">
+                                    <li><a href=\"profile.php\"><span class=\"glyphicon glyphicon-user\">
                                     </span>Profile</a></li>
-                                    <li><a href=\"settings.html\"><span class=\"glyphicon glyphicon-cog\">
+                                    <li><a href=\"settings.php\"><span class=\"glyphicon glyphicon-cog\">
                                     </span>Settings</a></li>
                                 </ul>
                                 </li>
-                                <li><a href=\"index.html\"><span class=\"glyphicon glyphicon-log-in\">
+                                <li><a href=\"../Controller/logout.php\"><span class=\"glyphicon glyphicon-log-in\">
                                 </span> Log out</a></li>
                             </ul>
                         </div>
@@ -53,25 +53,27 @@
                         <div id=\'past\'>
                         </div>
                     </div>
-                </div>";
+                </div>
+               ";
    }
 ?>
-           </body>
-            <script>
-                function post() {
-                    var text = document.getElementById('textbox').value;
-                    var div = document.createElement('div');
-                    var br = document.createElement('br');
-                    div.innerHTML = text;
-                    div.style.background = '#fff';
-                    div.style.marginLeft = '12%';
-                    div.style.marginRight = '18%';
-                    div.style.color = '#6434b3';
-                    div.style.padding = '5%';
-                    var past = document.getElementById('past');
-                    past.appendChild(div);
-                    past.appendChild(br);
-                    document.getElementById('textbox').value = "";
-                }
-            </script>
+</body>
+<script>
+    function post() {
+        var text = document.getElementById('textbox').value;
+        var div = document.createElement('div');
+        var br = document.createElement('br');
+        div.innerHTML = text;
+        div.style.background = '#fff';
+        div.style.marginLeft = '12%';
+        div.style.marginRight = '18%';
+        div.style.color = '#6434b3';
+        div.style.padding = '5%';
+        var past = document.getElementById('past');
+        past.appendChild(div);
+        past.appendChild(br);
+        document.getElementById('textbox').value = "";
+    }
+</script>
+
        </html>
