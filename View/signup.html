@@ -12,8 +12,9 @@
     <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
-<div id="container">
-    <div id="form">
+<form action="../Controller/SignUp.php" method="post">
+    <div id="container">
+    <div id="forma">
         <br/>
         <ul class="list-inline">
             <li><a href="index.html">LOG IN</a></li>
@@ -41,12 +42,13 @@
             </div>
             <br/><br/>
             <div id="registerSUDiv">
-                <input type="submit" value="Register" class="btn btn-default" onclick="validateSU()">
+                <input type="submit" value="Register" class="btn btn-default">
             </div>
             <br/><br/>
         </div>
     </div>
 </div>
+</form>
 </body>
 <script>
     $(document).ready(function () {
@@ -67,30 +69,5 @@
         $("#registerSUDiv").animate({left: '315px'});
 
     });
-
-    function validateSU() {
-        var name = document.getElementsByName("name")[0].value;
-        var username = document.getElementsByName("email")[0].value;
-        var password = document.getElementsByName("password")[0].value;
-        var confirmPass = document.getElementsByName("confirmPass")[0].value;
-
-        if(name == "" || username == "" || password == "" || confirmPass == ""){
-            document.getElementById('alert').hidden = false;
-            document.getElementById('alert').innerHTML = "All fields must contain information";
-        }
-        else
-        {
-            if(password != confirmPass)
-            {
-                document.getElementById('alert').hidden = false;
-                document.getElementById('alert').innerHTML = "Both passwords must match";
-            }
-            else
-            {
-                location = "profile.html";
-            }
-        }
-    }
-
 </script>
 </html>
