@@ -84,6 +84,19 @@
 
 }
 
+
+#username{
+
+    border-bottom: solid 3px white;
+    border-top: none;
+    border-left:none;
+    border-right:none;
+    background: transparent;
+    box-shadow: none;
+    color:#fff;
+
+}
+
 #bday{
 
     border-bottom: solid 3px white;
@@ -104,7 +117,20 @@
     border-right:none;
     background: transparent;
     box-shadow: none;
-    color:#000;
+    color:#fff;
+
+}
+
+
+#relationship{
+
+    border-bottom: solid 3px white;
+    border-top: none;
+    border-left:none;
+    border-right:none;
+    background: transparent;
+    box-shadow: none;
+    color:#fff;
 
 }
 

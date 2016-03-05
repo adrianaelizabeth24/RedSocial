@@ -32,6 +32,10 @@ function registrar($email,$password)
             session_start();
             $_SESSION['isLoggedIn'] = true;
             $_SESSION['email'] = $email;
+            $result = $conn->query("select * from account where email = '$email'");
+            $row = $result->fetch_assoc();
+            $_SESSION['userId'] = $row['userId'];
+            $result->free();
             header("Location: ../View/home.php");
         } else {
             echo("error");

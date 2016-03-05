@@ -54,7 +54,7 @@ if(isset($_SESSION['isLoggedIn']))
             <br/><br/>
             <br/><br/>
             <br/><br/>
-            <div class=\"texto\">
+            <form action='../Controller/SaveProfileInfo.php' method='get' class=\"texto\">
                 <div class=\"alert alert-danger\" id=\"alert\" hidden></div>
                 <div class=\"left-inner-addon\">
                     <i class=\"fa fa-user\"></i>
@@ -62,8 +62,8 @@ if(isset($_SESSION['isLoggedIn']))
                 </div>
                 <br/>
                 <div class=\"left-inner-addon\">
-                    <i class=\"fa fa-envelope-o\"></i>
-                    <input type=\"email\" name=\"Email\" id=\"email\" placeholder=\"Email\" class=\"form form-control\">
+                    <i class=\"fa fa-users\"></i>
+                    <input type=\"text\" name=\"username\" id=\"username\" placeholder=\"Username\" class=\"form form-control\">
                 </div>
                 <br/>
                 <div class=\"left-inner-addon\">
@@ -81,6 +81,19 @@ if(isset($_SESSION['isLoggedIn']))
                 </div>
                 <br/>
                 <div class=\"left-inner-addon\">
+                    <i class=\"fa fa-heart \"></i>
+                    <select name=\"Relationship\" class=\"form form-control\" id=\"relationship\">
+                        <option value=\"Single\">Single</option>
+                        <option value=\"Relationship\">In a Relationship</option>
+                        <option value=\"Married\">Married</option>
+                        <option value=\"Engaged\">Engaged</option>
+                        <option value=\"Divorced\">Divorced</option>
+                        <option value=\"Widowed\">Widowed</option>
+                        <option value=\"Forever_Alone\">Forever Alone</option>
+                    </select>
+                </div>
+                <br/>
+                <div class=\"left-inner-addon\">
                     <i class=\"fa fa-phone\"></i>
                     <input type=\"number\" name=\"Telephone\" id=\"telephone\" placeholder=\"Telephone\" class=\"form form-control\">
                 </div>
@@ -88,6 +101,7 @@ if(isset($_SESSION['isLoggedIn']))
                 <input type=\"submit\" value=\"Save\" class=\"form btn btn-default\"/>
                 <br/>
                 <br/>
+               </form>
             </div>
         </div>
     </div>
