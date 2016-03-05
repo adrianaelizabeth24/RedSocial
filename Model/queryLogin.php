@@ -24,6 +24,7 @@ function entrar($email,$password)
         } else {
             session_start();
             $_SESSION['isLoggedIn'] = true;
+            $_SESSION['user'] = $email;
             header("Location: ../View/home.php");
         }
     }

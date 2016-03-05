@@ -46,7 +46,7 @@ if(isset($_SESSION['isLoggedIn']))
             <div class=\"texto\">
                 Change password
                 <br/>
-                <div class=\"alert alert-danger\" id=\"alert\" hidden></div>
+                <div class=\"alert alert-danger\" id=\"alert\">Passwords must match!</div>
                 <br/>
                 <div class=\"left-inner-addon\">
                     <i class=\"fa fa-lock\"></i>

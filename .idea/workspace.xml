@@ -22,84 +22,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ForgotPassword.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Controller/ForgotPassword.php">
+      <file leaf-file-name="ChangePassword.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Controller/ChangePassword.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.153846">
-              <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
-              <folding>
-                <element signature="e#6#92#0#PHP" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.61445785">
+              <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/View/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.16695353">
-              <caret line="49" column="26" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
+            <state vertical-scroll-proportion="-22.038462">
+              <caret line="59" column="33" selection-start-line="59" selection-start-column="33" selection-end-line="59" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mailSent.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/View/mailSent.html">
+      <file leaf-file-name="queryChangePassword.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Model/queryChangePassword.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.115385">
-              <caret line="17" column="17" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="queryResetPassword.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Model/queryResetPassword.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.692307">
-              <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+            <state vertical-scroll-proportion="-5.8846154">
+              <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
               <folding>
-                <element signature="e#6#92#0#PHP" expanded="true" />
-                <marker date="1457204627015" expanded="true" signature="345:394" placeholder="select userI... account" />
-                <marker date="1457204627015" expanded="true" signature="536:602" placeholder="update accou... " />
-                <marker date="1457204627015" expanded="true" signature="536:616" placeholder="update accou... " />
-                <marker date="1457204627015" expanded="true" signature="536:651" placeholder="update accou... " />
-                <marker date="1457204627015" expanded="true" signature="542:551" placeholder="insert into account... " />
+                <marker date="1457210711716" expanded="true" signature="409:450" placeholder="update accou... " />
+                <marker date="1457210711716" expanded="true" signature="409:472" placeholder="update accou... " />
+                <marker date="1457210711716" expanded="true" signature="416:423" placeholder="insert into account... " />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="queryLogin.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Model/queryLogin.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.8461537">
-              <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="querySignUp.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Model/querySignUp.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.307693">
-              <caret line="30" column="52" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
-              <folding>
-                <marker date="1455893074097" expanded="true" signature="465:509" placeholder="select * fro... account" />
-                <marker date="1455893074097" expanded="true" signature="631:697" placeholder="insert into account... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="forgotPassword.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/View/forgotPassword.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.26923">
-              <caret line="31" column="48" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -131,12 +83,10 @@
         <option value="$PROJECT_DIR$/Controller/SignUp.php" />
         <option value="$PROJECT_DIR$/View/login_blank.html" />
         <option value="$PROJECT_DIR$/Controller/Login.php" />
-        <option value="$PROJECT_DIR$/Model/queryLogin.php" />
         <option value="$PROJECT_DIR$/View/signup_exists.html" />
         <option value="$PROJECT_DIR$/Model/querySignUp.php" />
         <option value="$PROJECT_DIR$/View/home.php" />
         <option value="$PROJECT_DIR$/View/profile.php" />
-        <option value="$PROJECT_DIR$/View/settings.php" />
         <option value="$PROJECT_DIR$/socialnetwork.sql" />
         <option value="$PROJECT_DIR$/View/index.html" />
         <option value="$PROJECT_DIR$/View/login_wrong.html" />
@@ -144,6 +94,11 @@
         <option value="$PROJECT_DIR$/View/forgotPassword.html" />
         <option value="$PROJECT_DIR$/Model/queryResetPassword.php" />
         <option value="$PROJECT_DIR$/Controller/ForgotPassword.php" />
+        <option value="$PROJECT_DIR$/View/settings.php" />
+        <option value="$PROJECT_DIR$/View/settings_error.php" />
+        <option value="$PROJECT_DIR$/Model/queryLogin.php" />
+        <option value="$PROJECT_DIR$/Model/queryChangePassword.php" />
+        <option value="$PROJECT_DIR$/Controller/ChangePassword.php" />
       </list>
     </option>
   </component>
@@ -415,7 +370,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#6#92#0#PHP" expanded="true" />
+            <element signature="e#6#92#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -424,6 +379,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <folding>
+            <marker date="1455893558447" expanded="true" signature="919:1780" placeholder="..." />
+            <marker date="1455893558447" expanded="true" signature="955:1773" placeholder="..." />
+            <marker date="1455893558447" expanded="true" signature="1006:1762" placeholder="..." />
+            <marker date="1455893558447" expanded="true" signature="1142:1627" placeholder="..." />
+            <marker date="1455893558447" expanded="true" signature="1207:1270" placeholder="..." />
+            <marker date="1455893558447" expanded="true" signature="1219:1266" placeholder="..." />
+            <marker date="1455893558447" expanded="true" signature="1315:1609" placeholder="..." />
+            <marker date="1455893558447" expanded="true" signature="1806:4160" placeholder="..." />
+            <marker date="1455893558447" expanded="true" signature="1832:4153" placeholder="..." />
+            <marker date="1455893558447" expanded="true" signature="1867:4142" placeholder="..." />
+            <marker date="1455893558447" expanded="true" signature="1901:2163" placeholder="..." />
+            <marker date="1455893558447" expanded="true" signature="2029:2144" placeholder="..." />
+            <marker date="1455893558447" expanded="true" signature="2358:4127" placeholder="..." />
+            <marker date="1455893558447" expanded="true" signature="2484:2674" placeholder="..." />
+            <marker date="1455893558447" expanded="true" signature="2745:2944" placeholder="..." />
+            <marker date="1455893558447" expanded="true" signature="3015:3222" placeholder="..." />
+            <marker date="1455893558447" expanded="true" signature="3293:3677" placeholder="..." />
+            <marker date="1455893558447" expanded="true" signature="3435:3654" placeholder="..." />
+            <marker date="1455893558447" expanded="true" signature="3748:3955" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -448,6 +424,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <folding>
+            <marker date="1455893558447" expanded="true" signature="919:1780" placeholder="..." />
+            <marker date="1455893558447" expanded="true" signature="955:1773" placeholder="..." />
+            <marker date="1455893558447" expanded="true" signature="1006:1762" placeholder="..." />
+            <marker date="1455893558447" expanded="true" signature="1142:1627" placeholder="..." />
+            <marker date="1455893558447" expanded="true" signature="1207:1270" placeholder="..." />
+            <marker date="1455893558447" expanded="true" signature="1219:1266" placeholder="..." />
+            <marker date="1455893558447" expanded="true" signature="1315:1609" placeholder="..." />
+            <marker date="1455893558447" expanded="true" signature="1806:4160" placeholder="..." />
+            <marker date="1455893558447" expanded="true" signature="1832:4153" placeholder="..." />
+            <marker date="1455893558447" expanded="true" signature="1867:4142" placeholder="..." />
+            <marker date="1455893558447" expanded="true" signature="1901:2163" placeholder="..." />
+            <marker date="1455893558447" expanded="true" signature="2029:2144" placeholder="..." />
+            <marker date="1455893558447" expanded="true" signature="2358:4127" placeholder="..." />
+            <marker date="1455893558447" expanded="true" signature="2484:2674" placeholder="..." />
+            <marker date="1455893558447" expanded="true" signature="2745:2944" placeholder="..." />
+            <marker date="1455893558447" expanded="true" signature="3015:3222" placeholder="..." />
+            <marker date="1455893558447" expanded="true" signature="3293:3677" placeholder="..." />
+            <marker date="1455893558447" expanded="true" signature="3435:3654" placeholder="..." />
+            <marker date="1455893558447" expanded="true" signature="3748:3955" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -580,20 +577,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/View/login_blank.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2685026">
-          <caret line="17" column="17" selection-start-line="0" selection-start-column="0" selection-end-line="73" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controller/Login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39891696">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/View/signup_blank.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6437177">
@@ -619,20 +602,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.55593807">
           <caret line="23" column="107" selection-start-line="23" selection-start-column="107" selection-end-line="23" selection-end-column="107" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/View/settings.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08777969">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/View/profile.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.461538">
-          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -688,14 +657,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Model/queryLogin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.8461537">
-          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/Proyectos Escuela/TECNOLÓGICO/semestre 7/semestre 7/web/PHP-master/PHP-master/Model/resetPassword.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-15.692307">
@@ -706,10 +667,122 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/View/mailSent.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49741825">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/View/forgotPassword.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9070568">
+          <caret line="31" column="48" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/View/login_blank.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.61445785">
+          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/View/profile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.2530121">
+          <caret line="28" column="43" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
+          <folding>
+            <marker date="1455893558447" expanded="true" signature="919:1780" placeholder="..." />
+            <marker date="1455893558447" expanded="true" signature="955:1773" placeholder="..." />
+            <marker date="1455893558447" expanded="true" signature="1006:1762" placeholder="..." />
+            <marker date="1455893558447" expanded="true" signature="1142:1627" placeholder="..." />
+            <marker date="1455893558447" expanded="true" signature="1207:1270" placeholder="..." />
+            <marker date="1455893558447" expanded="true" signature="1219:1266" placeholder="..." />
+            <marker date="1455893558447" expanded="true" signature="1315:1609" placeholder="..." />
+            <marker date="1455893558447" expanded="true" signature="1806:4160" placeholder="..." />
+            <marker date="1455893558447" expanded="true" signature="1832:4153" placeholder="..." />
+            <marker date="1455893558447" expanded="true" signature="1867:4142" placeholder="..." />
+            <marker date="1455893558447" expanded="true" signature="1901:2163" placeholder="..." />
+            <marker date="1455893558447" expanded="true" signature="2029:2144" placeholder="..." />
+            <marker date="1455893558447" expanded="true" signature="2358:4127" placeholder="..." />
+            <marker date="1455893558447" expanded="true" signature="2484:2674" placeholder="..." />
+            <marker date="1455893558447" expanded="true" signature="2745:2944" placeholder="..." />
+            <marker date="1455893558447" expanded="true" signature="3015:3222" placeholder="..." />
+            <marker date="1455893558447" expanded="true" signature="3293:3677" placeholder="..." />
+            <marker date="1455893558447" expanded="true" signature="3435:3654" placeholder="..." />
+            <marker date="1455893558447" expanded="true" signature="3748:3955" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/View/settings_error.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2685026">
+          <caret line="48" column="84" selection-start-line="48" selection-start-column="84" selection-end-line="48" selection-end-column="84" />
+          <folding>
+            <element signature="e#670#756#0#PHP" expanded="false" />
+            <marker date="1457206858821" expanded="true" signature="859:1719" placeholder="..." />
+            <marker date="1457206858821" expanded="true" signature="895:1712" placeholder="..." />
+            <marker date="1457206858821" expanded="true" signature="946:1701" placeholder="..." />
+            <marker date="1457206858821" expanded="true" signature="1082:1566" placeholder="..." />
+            <marker date="1457206858821" expanded="true" signature="1147:1210" placeholder="..." />
+            <marker date="1457206858821" expanded="true" signature="1159:1206" placeholder="..." />
+            <marker date="1457206858821" expanded="true" signature="1255:1548" placeholder="..." />
+            <marker date="1457206858821" expanded="true" signature="1745:2927" placeholder="..." />
+            <marker date="1457206858821" expanded="true" signature="1815:2920" placeholder="..." />
+            <marker date="1457206858821" expanded="false" signature="1850:1877" placeholder="..." />
+            <marker date="1457206858821" expanded="true" signature="1879:2908" placeholder="..." />
+            <marker date="1457206858821" expanded="true" signature="1914:2897" placeholder="..." />
+            <marker date="1457206858821" expanded="true" signature="1948:2882" placeholder="..." />
+            <marker date="1457206858821" expanded="true" signature="2164:2369" placeholder="..." />
+            <marker date="1457206858821" expanded="true" signature="2440:2708" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/View/settings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.61962134">
+          <caret line="55" column="36" selection-start-line="0" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding>
+            <element signature="e#670#756#0#PHP" expanded="false" />
+            <marker date="1457206271072" expanded="true" signature="859:1719" placeholder="..." />
+            <marker date="1457206271072" expanded="true" signature="895:1712" placeholder="..." />
+            <marker date="1457206271072" expanded="true" signature="946:1701" placeholder="..." />
+            <marker date="1457206271072" expanded="true" signature="1082:1566" placeholder="..." />
+            <marker date="1457206271072" expanded="true" signature="1147:1210" placeholder="..." />
+            <marker date="1457206271072" expanded="true" signature="1159:1206" placeholder="..." />
+            <marker date="1457206271072" expanded="true" signature="1255:1548" placeholder="..." />
+            <marker date="1457206271072" expanded="true" signature="1745:1797" placeholder="..." />
+            <marker date="1457206271072" expanded="true" signature="1745:1808" placeholder="..." />
+            <marker date="1457206271072" expanded="true" signature="1745:2913" placeholder="..." />
+            <marker date="1457206271072" expanded="true" signature="1815:2906" placeholder="..." />
+            <marker date="1457206271072" expanded="true" signature="1850:1877" placeholder="..." />
+            <marker date="1457206271072" expanded="true" signature="1879:2894" placeholder="..." />
+            <marker date="1457206271072" expanded="true" signature="1914:2883" placeholder="..." />
+            <marker date="1457206271072" expanded="true" signature="1948:2868" placeholder="..." />
+            <marker date="1457206271072" expanded="true" signature="2150:2355" placeholder="..." />
+            <marker date="1457206271072" expanded="true" signature="2426:2694" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controller/ForgotPassword.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.72289157">
+          <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Model/querySignUp.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.307693">
-          <caret line="30" column="52" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
+        <state vertical-scroll-proportion="-16.461538">
+          <caret line="41" column="5" selection-start-line="25" selection-start-column="4" selection-end-line="41" selection-end-column="5" />
           <folding>
             <marker date="1455893074097" expanded="true" signature="465:509" placeholder="select * fro... account" />
             <marker date="1455893074097" expanded="true" signature="631:697" placeholder="insert into account... " />
@@ -717,51 +790,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/View/forgotPassword.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.26923">
-          <caret line="31" column="48" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Model/queryResetPassword.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.692307">
-          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.6729776">
+          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
           <folding>
             <element signature="e#6#92#0#PHP" expanded="true" />
             <marker date="1457204627015" expanded="true" signature="345:394" placeholder="select userI... account" />
             <marker date="1457204627015" expanded="true" signature="536:602" placeholder="update accou... " />
             <marker date="1457204627015" expanded="true" signature="536:616" placeholder="update accou... " />
-            <marker date="1457204627015" expanded="true" signature="536:651" placeholder="update accou... " />
-            <marker date="1457204627015" expanded="true" signature="542:551" placeholder="insert into account... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/View/mailSent.html">
+    <entry file="file://$PROJECT_DIR$/Controller/Login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.115385">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="17" />
+        <state vertical-scroll-proportion="-5.230769">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Controller/ForgotPassword.php">
+    <entry file="file://$PROJECT_DIR$/Model/queryLogin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.153846">
-          <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
+        <state vertical-scroll-proportion="-13.730769">
+          <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
           <folding>
-            <element signature="e#6#92#0#PHP" expanded="true" />
+            <marker date="1457209266087" expanded="true" signature="351:395" placeholder="select * fro... account" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/View/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16695353">
-          <caret line="49" column="26" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
+        <state vertical-scroll-proportion="-22.038462">
+          <caret line="59" column="33" selection-start-line="59" selection-start-column="33" selection-end-line="59" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/queryChangePassword.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.8846154">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <folding>
+            <marker date="1457210711716" expanded="true" signature="409:450" placeholder="update accou... " />
+            <marker date="1457210711716" expanded="true" signature="409:472" placeholder="update accou... " />
+            <marker date="1457210711716" expanded="true" signature="416:423" placeholder="insert into account... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controller/ChangePassword.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.61445785">
+          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
           <folding />
         </state>
       </provider>
