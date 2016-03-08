@@ -11,7 +11,6 @@
     <script src="js/query.js" type="text/javascript"></script>
 </head>
 <body>
-
 <nav class="navbar navbar-inverse">
     <div class="container-fluid">
         <ul class="nav navbar-nav navbar-right">
@@ -31,34 +30,38 @@
 <div class="container">
     <div class="input">
         <div id="status" style="margin: 0 20% 0 10%">
-            <br/>
-            <textarea class="form form-control" placeholder="what's on your mind?" id="textbox"></textarea>
-            <br/>
-            <input type="submit" value="Post" class="form btn btn-default" onclick="post()"/>
+            <form method="get" action="../Controller/Post.php">
+                <br/>
+                <textarea class="form form-control" placeholder="what's on your mind?" name="textbox"
+                          id="textbox"></textarea>
+                <br/>
+                <input type="submit" value="Post" class="form btn btn-default"/>
+            </form>
             <br/><br/>
         </div>
+        </div>
+    <br/><br/>
         <div id="past">
+            <?php
+            // Create
+            $conn = new mysqli('localhost', 'root', '', 'socialnetwork');
+            // Check connection
+            if ($conn->connect_error) {
+                die("Connection failed: " . $conn->connect_error);
+            }
+            session_start();
+            $uId = $_SESSION['userId'];
+            $result = $conn->query("select * from post where userId = '$uId' order by postId desc");
+            while($row = $result->fetch_assoc()){
+                $palabras = $row['post'];
+                echo "<div class='post'>$palabras</div><br/><br/>";
+            }
+            $result->free();
+            $conn->close();
+
+            ?>
 
         </div>
-    </div>
-
 </div>
 </body>
-<script>
-    function post() {
-        var text = document.getElementById('textbox').value;
-        var div = document.createElement('div');
-        var br = document.createElement('br');
-        div.innerHTML = text;
-        div.style.background = '#fff';
-        div.style.marginLeft = '12%';
-        div.style.marginRight = '18%';
-        div.style.color = '#6434b3';
-        div.style.padding = '5%';
-        var past = document.getElementById('past');
-        past.appendChild(div);
-        past.appendChild(br);
-        document.getElementById('textbox').value = "";
-    }
-</script>
 </html>

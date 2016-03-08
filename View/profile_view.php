@@ -38,6 +38,8 @@ if(isset($_SESSION['isLoggedIn']))
         $gender = $row["gender"];
         $relationship = $row["relationship"];
         $phone = $row["phone"];
+        $profile = $row["profilePic"];
+
 
     } else {
         $name = "";
@@ -48,11 +50,11 @@ if(isset($_SESSION['isLoggedIn']))
         $phone = "";
     }
 
-    if(strcmp($profile, "img/") == 0){
+    if(strcmp($profile, "../Pictures/profiles/") == 0){
         $profile = $profile . "f3.jpg";
     }
 
-    if(strcmp($cover, "img/") == 0){
+    if(strcmp($cover, "../Pictures/profiles/\"") == 0){
         $cover = $cover . "f3.jpg";
     }
 
@@ -80,7 +82,7 @@ if(isset($_SESSION['isLoggedIn']))
             <div class=\"cover\">
                 <a href=\"#\" class=\"photoUpload\"><i class=\"fa fa-camera\"></i> </a>
                 <div class=\"profile\">
-                    <a href=\"#\" class=\"photoUpload\"><i class=\"fa fa-camera\"></i> </a>
+                    <a href=\"profile_ppic.php\" class=\"photoUpload\"><i class=\"fa fa-camera\"></i> </a>
                 </div>
             </div>
             <br/><br/>

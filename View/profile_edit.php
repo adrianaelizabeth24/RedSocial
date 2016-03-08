@@ -81,7 +81,7 @@ if(isset($_SESSION['isLoggedIn']))
             <div class=\"cover\">
                 <a href=\"#\" class=\"photoUpload\"><i class=\"fa fa-camera\"></i> </a>
                 <div class=\"profile\">
-                    <a href=\"#\" class=\"photoUpload\"><i class=\"fa fa-camera\"></i> </a>
+                    <a href=\"profile_ppic.php\" class=\"photoUpload\"><i class=\"fa fa-camera\"></i> </a>
                 </div>
             </div>
             <br/><br/>
