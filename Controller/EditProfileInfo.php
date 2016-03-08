@@ -2,9 +2,10 @@
 /**
  * Created by PhpStorm.
  * User: Adriana
- * Date: 05/03/2016
- * Time: 03:13 PM
+ * Date: 07/03/2016
+ * Time: 09:30 PM
  */
+
 session_start();
 $userId = $_SESSION['userId'];
 $userName = $_GET['username'];
@@ -14,7 +15,16 @@ $gender = $_GET['Gender'];
 $relationship = $_GET['Relationship'];
 $phone = $_GET['Telephone'];
 
+echo $userId;
+echo $userName;
+echo $name;
+echo $bday;
+echo $gender;
+echo $relationship;
+echo $phone;
+
 include("../Model/queryProfile.php");
 
-SaveNewProfile($userId,$userName,$name,$bday,$gender,$relationship,$phone);
-header("location:../View/home.php");
+UpdateProfile($userId,$userName,$name,$bday,$gender,$relationship,$phone);
+header("location:../View/profile_view.php");
+?>

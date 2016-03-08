@@ -22,6 +22,42 @@
 session_start();
 if(isset($_SESSION['isLoggedIn']))
 {
+
+    $id = $_SESSION['userId'];
+    $conn = new mysqli("localhost", "root", "", "socialnetwork");
+    if ($conn->connect_error) {
+        die("Connection failed: " . $conn->connect_error);
+    }
+    $results = $conn->query("Select * from userinfo where userId = '$id'");
+
+    if ($row = $results->fetch_assoc()) {
+        //$row = $results->fetch_assoc();
+        $name = $row["fullname"];
+        $username = $row["userName"];
+        $bday = $row["birthdate"];
+        $gender = $row["gender"];
+        $relationship = $row["relationship"];
+        $phone = $row["phone"];
+
+    } else {
+        $name = "";
+        $username = "";
+        $bday = "";
+        $gender = "";
+        $relationship = "";
+        $phone = "";
+    }
+
+    if(strcmp($profile, "img/") == 0){
+        $profile = $profile . "f3.jpg";
+    }
+
+    if(strcmp($cover, "img/") == 0){
+        $cover = $cover . "f3.jpg";
+    }
+
+    $results->free();
+    $conn->close();
     echo "<nav class=\"navbar navbar-inverse\">
     <div class=\"container-fluid\">
         <ul class=\"nav navbar-nav navbar-right\">
@@ -54,51 +90,42 @@ if(isset($_SESSION['isLoggedIn']))
             <br/><br/>
             <br/><br/>
             <br/><br/>
+            <br/><br/>
+            <br/><br/>
             <form action='../Controller/SaveProfileInfo.php' method='get' class=\"texto\">
-                <div class=\"alert alert-danger\" id=\"alert\" hidden></div>
-                <div class=\"left-inner-addon\">
+            <br/>
+            <a href=\"profile_edit.php\"><i class=\"fa fa-pencil\"></i>Edit</a>
+                <br/><br/>
+
+                <div>
                     <i class=\"fa fa-user\"></i>
-                    <input type=\"text\" name=\"Name\" id=\"name\" placeholder=\"Name\" class=\"form form-control\"/>
+                    Name : <label>$name</label>
                 </div>
                 <br/>
-                <div class=\"left-inner-addon\">
+                <div>
                     <i class=\"fa fa-users\"></i>
-                    <input type=\"text\" name=\"username\" id=\"username\" placeholder=\"Username\" class=\"form form-control\">
+                    Username : <label>$username</label>
                 </div>
                 <br/>
-                <div class=\"left-inner-addon\">
+                <div>
                     <i class=\"fa fa-birthday-cake\"></i>
-                    <input type=\"date\" name=\"Birthdate\" id=\"bday\" placeholder=\"Birthday\" class=\"form form-control\">
+                    Birthdate : <label>$bday</label>
                 </div>
                 <br/>
-                <div class=\"left-inner-addon\">
+                <div>
                     <i class=\"fa fa-venus-mars\"></i>
-                    <select name=\"Gender\" class=\"form form-control\" id=\"gender\">
-                        <option value=\"female\">Female</option>
-                        <option value=\"male\">Male</option>
-                        <option value=\"other\">Other</option>
-                    </select>
+                    Gender : <label>$gender</label>
                 </div>
                 <br/>
-                <div class=\"left-inner-addon\">
+                <div>
                     <i class=\"fa fa-heart \"></i>
-                    <select name=\"Relationship\" class=\"form form-control\" id=\"relationship\">
-                        <option value=\"Single\">Single</option>
-                        <option value=\"Relationship\">In a Relationship</option>
-                        <option value=\"Married\">Married</option>
-                        <option value=\"Engaged\">Engaged</option>
-                        <option value=\"Divorced\">Divorced</option>
-                        <option value=\"Widowed\">Widowed</option>
-                        <option value=\"Forever_Alone\">Forever Alone</option>
-                    </select>
+                    Relationship : <label>$relationship</label>
                 </div>
                 <br/>
-                <div class=\"left-inner-addon\">
+                <div>
                     <i class=\"fa fa-phone\"></i>
-                    <input type=\"number\" name=\"Telephone\" id=\"telephone\" placeholder=\"Telephone\" class=\"form form-control\">
+                    Telephone : <label>$phone</label>
                 </div>
-                <br/>
-                <input type=\"submit\" value=\"Save\" class=\"form btn btn-default\"/>
                 <br/>
                 <br/>
                </form>

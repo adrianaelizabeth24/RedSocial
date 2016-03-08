@@ -20,7 +20,7 @@
                         class="caret"></span></a>
                 <ul class="dropdown-menu">
                     <li><a href="#"></a></li>
-                    <li><a href="profile.php"><span class="glyphicon glyphicon-user"></span>Profile</a></li>
+                    <li><a href="profile_view.php"><span class="glyphicon glyphicon-user"></span>Profile</a></li>
                     <li><a href="settings.php"><span class="glyphicon glyphicon-cog"></span>Change Password</a></li>
                 </ul>
             </li>

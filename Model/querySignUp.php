@@ -36,7 +36,7 @@ function registrar($email,$password)
             $row = $result->fetch_assoc();
             $_SESSION['userId'] = $row['userId'];
             $result->free();
-            header("Location: ../View/home.php");
+            header("Location: ../View/profile_new.php");
         } else {
             echo("error");
         }
