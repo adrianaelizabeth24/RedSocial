@@ -43,7 +43,7 @@ if(isset($_SESSION['isLoggedIn']))
      <div class=\"input\" style=\"width:60%; margin-left: 20%\">
         <div class=\"formulario\">
             <div class=\"texto\">
-                <form enctype = \"multipart/form-data\" action = \"../Controller/UploadProfilePicture.php\" method = \"post\" >
+                <form enctype = \"multipart/form-data\" action = \"../Controller/UploadProfilePicture.php\" method = \"get\" >
             <br /><br />
                 Imagen de perfil <input type =\"file\" name = \"profilePicture\" >
                 <input type = \"hidden\" name = \"MAX_FILE_SIZE\" value = \"5000000\" />

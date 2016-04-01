@@ -10,6 +10,8 @@ session_start();
 $userId = $_SESSION['userId'];
 
 $Pfile = isset($_FILES["profilePicture"]["name"])? $_FILES["profilePicture"]["name"] : "";
+
+echo $Pfile;
 $Pfile_tmp = isset($_FILES["profilePicture"]["tmp_name"])? $_FILES["profilePicture"]["tmp_name"] : "";
     require '../model/queryUploadProfilePicture.php';
 
@@ -56,9 +58,8 @@ $Pfile_tmp = isset($_FILES["profilePicture"]["tmp_name"])? $_FILES["profilePictu
         // if everything is ok, try to upload file
     } else {
 
-        if(upload_img($Pfile_tmp, $target_file, $Pfile, $userId))
-        {
-            header("location: ../view/home.php");
+        if(upload_img($Pfile_tmp, $target_file, $Pfile, $userId)) {
+        //  header("location: ../view/home.php");
 
         }
         else

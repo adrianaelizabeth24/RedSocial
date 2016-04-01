@@ -9,6 +9,6 @@
     if(isset($_SESSION['isLoggedIn'])){
         unset($_SESSION['isLoggedIn']);
         session_destroy();
-        header("location: ../View/index.html");
+        header("location: ../View/index.php");
     }
 ?>
